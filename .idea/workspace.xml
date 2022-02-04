@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38acd68f-a58a-4b9f-ad40-c3c50d2178a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/tools/webdriver/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/tools/webdriver/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
