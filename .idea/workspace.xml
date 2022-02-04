@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38acd68f-a58a-4b9f-ad40-c3c50d2178a8" name="Changes" comment="" />
+    <list default="true" id="38acd68f-a58a-4b9f-ad40-c3c50d2178a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/tools/webdriver/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/tools/webdriver/WebDriverManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24Y8lkuA96M8wW8QtRju7Tc3MQl" />
   <component name="ProjectViewState">
