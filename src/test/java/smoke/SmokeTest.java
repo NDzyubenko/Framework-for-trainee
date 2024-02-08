@@ -8,6 +8,9 @@ public class SmokeTest extends BaseTest {
     @Test(description = "example")
     public void firstTest() {
         onStartPage()
-                .login();
+                .login()
+                .enterSearchData("My first test")
+                .clickSearchButton()
+                .verifyResults("first test");
     }
 }

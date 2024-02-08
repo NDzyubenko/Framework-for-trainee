@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38acd68f-a58a-4b9f-ad40-c3c50d2178a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/pages/ExamplePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/smoke/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/smoke/SmokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/chromedriver.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24Y8lkuA96M8wW8QtRju7Tc3MQl" />
   <component name="ProjectViewState">
@@ -54,7 +67,25 @@
       <recent name="com.ngcdn.data.enums" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SmokeTest.firstTest (1)">
+    <configuration name="SmokeTest.firstTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ngTestingFrame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smoke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="smoke" />
+      <option name="MAIN_CLASS_NAME" value="smoke.SmokeTest" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmokeTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Framework for trainee" />
       <extension name="coverage">
@@ -75,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SmokeTest.firstTest (1)" />
         <item itemvalue="TestNG.SmokeTest.firstTest" />
       </list>
     </recent_temporary>
@@ -91,6 +123,44 @@
     <servers />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
+          <line>35</line>
+          <properties class="frameworkForTesting.steps.Steps" method="verifyResults">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="com.ngcdn.webdriver.WebDriverManager" memberName="atlas" />

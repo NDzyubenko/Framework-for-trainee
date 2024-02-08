@@ -97,6 +97,11 @@
             <version>${atlas.version}</version>
         </dependency>
         <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allure.testng.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-library</artifactId>
             <version>${hamcrest.version}</version>
@@ -119,7 +124,7 @@
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.0.3</version>
+            <version>5.6.3</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
