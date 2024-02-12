@@ -5,17 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38acd68f-a58a-4b9f-ad40-c3c50d2178a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/data/variables/login/LoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/pages/LoginSwagPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/LoginSwagSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/webdrivermanager_5_0_3_fat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/pages/ExamplePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/data/variables/Variables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/pages/ExamplePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frameworkForTesting/tools/additional/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frameworkForTesting/tools/additional/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/smoke/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/smoke/SmokeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/chromedriver.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,14 +53,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/webdrivermanager-5.0.3-fat.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dziubenko.m\Music\qa-ngui2\qa-ngui\src\main\resources" />
@@ -126,38 +136,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
-          <line>35</line>
-          <properties class="frameworkForTesting.steps.Steps" method="verifyResults">
+          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/LoginSwagSteps.java</url>
+          <line>11</line>
+          <properties class="frameworkForTesting.steps.LoginSwagSteps">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/frameworkForTesting/steps/Steps.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

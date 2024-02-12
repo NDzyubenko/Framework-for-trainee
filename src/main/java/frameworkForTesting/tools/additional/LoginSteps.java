@@ -1,6 +1,6 @@
 package frameworkForTesting.tools.additional;
 
-import frameworkForTesting.steps.Steps;
+import frameworkForTesting.steps.LoginSwagSteps;
 import frameworkForTesting.tools.utils.WebDriverSteps;
 import frameworkForTesting.tools.webdriver.WebDriverManager;
 import io.qameta.atlas.webdriver.WebPage;
@@ -12,10 +12,10 @@ public class LoginSteps extends WebDriverSteps {
         super(webDriverManager);
     }
 
-    public Steps login() {
+    public LoginSwagSteps login() {
         getWebDriverManager().resize();
         onWebPage().open();
-        return new Steps(getWebDriverManager());
+        return new LoginSwagSteps(getWebDriverManager());
     }
 
     private WebPage onWebPage() {
